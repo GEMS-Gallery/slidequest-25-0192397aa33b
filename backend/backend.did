@@ -1,0 +1,7 @@
+service : {
+  getGrid: () -> (vec vec nat) query;
+  getMoves: () -> (nat) query;
+  isSolved: () -> (bool) query;
+  makeMove: (nat, nat) -> (bool);
+  newGame: () -> (vec vec nat);
+}
